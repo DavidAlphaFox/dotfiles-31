@@ -33,16 +33,16 @@ c.auto_save.session = True
 
 # Setting default page for when opening new tabs or new windows with
 # commands like :open -t and :open -w .
-c.url.default_page = 'https:///google.com/'
-c.url.start_pages = 'https://google.com/'
+c.url.default_page = 'https:///duckduckgo.com/'
+c.url.start_pages = 'https://duckduckgo.com/'
 
-c.url.searchengines = {'DEFAULT': 'https://google.com/search?q={}'}
+c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/search?q={}'}
 
 # Default font families to use. Whenever "default_family" is used in a
 # font setting, it's replaced with the fonts listed here. If set to an
 # empty value, a system-specific monospace default is used.
 # Type: List of Font, or Font
-c.fonts.default_family = '"JetBrainsMonoNL Nerd Font"'
+c.fonts.default_family = '"JetBrainsMono Nerd Font"'
 
 # Default font size to use. Whenever "default_size" is used in a font
 # setting, it's replaced with the size listed here. Valid values are
