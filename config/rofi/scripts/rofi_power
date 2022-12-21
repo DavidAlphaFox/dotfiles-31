@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+# ***This script was made by Clay Gomera (Drake)***
+#  - Description: A simple power menu rofi script
+#  - Dependencies: rofi, power-profiles-daemon
+
+## OPTIONS ##
+option1=" Reboot"
+option2=" Power off"
+option3="鈴 Suspend"
+option4=" Lock"
+option5=" Cancel"
+
+## OPTIONS ARRAY ##
+options="$option1\n$option2\n$option3\n$option4\n$option5"
+## MAIN ACTION COMMAND ##
+action=$(echo -e "$options" | rofi -dmenu  -l 5 -i -p " ")
+case "$action" in
+    $option1*)
+        loginctl reboot;;
+    $option2*)
+        loginctl poweroff;;
+    $option3*)
+        betterlockscreen --suspend blur;;
+    $option4*)
+        betterlockscreen -l  blur;;
+    $option5*)
+        exit 0
+esac

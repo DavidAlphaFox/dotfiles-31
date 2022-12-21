@@ -1,0 +1,103 @@
+! hard contrast: *background: #1d2021
+*background: #282828
+! soft contrast: *background: #32302f
+*foreground: #e2d3ba
+! Black + DarkGrey
+*color0:  #282828
+*color8:  #928374
+! DarkRed + Red
+*color1:  #ea6962
+*color9:  #ef938e
+! DarkGreen + Green
+*color2:  #a9b665
+*color10: #bbc585
+! DarkYellow + Yellow
+*color3:  #d8a657
+*color11: #e1bb7e
+! DarkBlue + Blue
+*color4:  #7daea3
+*color12: #9dc2ba
+! DarkMagenta + Magenta
+*color5:  #d3869b
+*color13: #e1acbb
+! DarkCyan + Cyan
+*color6:  #89b482
+*color14: #a7c7a2
+! LightGrey + White
+*color7:  #d4be98
+*color15: #e2d4ba
+
+URxvt.color24:  #076678
+URxvt.color66:  #427b58
+URxvt.color88:  #9d0006
+URxvt.color96:  #8f3f71
+URxvt.color100: #79740e
+URxvt.color108: #8ec07c
+URxvt.color109: #83a598
+URxvt.color130: #af3a03
+URxvt.color136: #b57614
+URxvt.color142: #b8bb26
+URxvt.color167: #fb4934
+URxvt.color175: #d3869b
+URxvt.color208: #fe8019
+URxvt.color214: #fabd2f
+URxvt.color223: #ebdbb2
+URxvt.color228: #f2e5bc
+URxvt.color229: #fbf1c7
+URxvt.color230: #f9f5d7
+URxvt.color234: #1d2021
+URxvt.color235: #282828
+URxvt.color236: #32302f
+URxvt.color237: #3c3836
+URxvt.color239: #504945
+URxvt.color241: #665c54
+URxvt.color243: #7c6f64
+URxvt.color244: #928374
+URxvt.color245: #928374
+URxvt.color246: #a89984
+URxvt.color248: #bdae93
+URxvt.color250: #d5c4a1
+
+!! Urxvt appearance
+URxvt.font: xft:JetBrainsMono Nerd Font Mono:size=14
+URxvt.depth: 32
+URxvt.letterspace: -1
+URxvt.linespace: 2
+URxvt.internalBorder: 20
+URxvt.cursorUnderline: true
+URxvt.saveline: 2048
+URxvt.scrollBar: false
+URxvt.srcollBar_right: false
+URxvt.urgentOnBell: false
+urxvt.depth: 32
+URxvt.iso14755: false
+URxvt.iso14755_52: off
+
+!! URxvt Functions
+URxvt.perl-ext-common: default,matcher,clipboard
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+URxvt.clipboard.autocopy: true
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.keysym.Shift-Control-c: perl:clipboard:copy
+URxvt.keysym.C-Down:  resize-font:smaller
+URxvt.keysym.C-Up:    resize-font:bigger
+
+URxvt.buffered: true
+URxvt.borderless: true
+URxvt.geometry: 50x13
+
+ntialias:1
+Xft.hinting:1
+Xft.autohint:0
+Xft.hintstyle:hintslight
+Xft.rgba:rgb
+
+! window padding
+! st.borderpx: 20
+!
+! !-- values between 0.1  - 1.0 --! 
+!
+! st.alpha: 1.0 
+! st.font:           JetBrainsMono Nerd Font:style:medium:pixelsize=15
+!
